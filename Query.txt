@@ -1,0 +1,15 @@
+1 SELECT * FROM teachers	
+2 SELECT head_of_dep... FROM Departements 
+3 SELECT * FROM courses 
+4 SELECT * FROM students i WHERE name='Marco'
+5 SELECT * from corsi where Crediti<=12
+6 SELECT * FROM corsi WHERE BETWEEN 10 and 5
+7 SElect * from courses where period= '| semestre'and  year =1;
+
+8 select * from courses where website IS NULL
+
+9 select * from teachers where office_numers IS NOT NULL
+Bonus
+1 SELECT * FROM studenti WHERE nome like E%
+2 SELECT * COUNT(*) FROM teachers WHERE nome like'e%'ù
+3 SELECT COUNT(*) FROM  teachers WHERE numeroTelefono IS NULL
